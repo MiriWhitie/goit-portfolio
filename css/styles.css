@@ -8,6 +8,10 @@
 body {
     color: #2e2f42;
     font-family: Roboto,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .logo:focus {
@@ -20,10 +24,15 @@ ul {
 
 .nav-link {
 color: var(--brand-dark-color);
+font-weight: 500;
 }
 
 .nav-link:hover {
     color: #404bbf;
+}
+
+.contact-address {
+    font-style: normal;
 }
 
 .contact-link { 
@@ -40,9 +49,34 @@ color: var(--brand-dark-color);
 
 .hero-title {
     color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
 }
 
 .logo {
-    color: #2e2f42;
+    color: var(--brand-dark-color);
     font-family: Raleway,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em
+}
+
+.logo-accent {
+    color: var(--brand-color);
+}
+
+.button{
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color:var(--brand-color);
+}
+
+.button:hover {
+    background-color:var(--brand-dark-color);
 }
