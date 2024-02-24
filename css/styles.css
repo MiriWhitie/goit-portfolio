@@ -1,0 +1,48 @@
+.root {
+    --primary-dark-color:#2e2f42; 
+    --brand-color:#4D5AE5; 
+    --brand-dark-color:#404bbf;
+
+}
+
+body {
+    color: #2e2f42;
+    font-family: Roboto,sans-serif;
+}
+
+.logo:focus {
+    background-color:#2e2f42 ;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-link {
+color: var(--brand-dark-color);
+}
+
+.nav-link:hover {
+    color: #404bbf;
+}
+
+.contact-link { 
+ color: #434455;
+}
+
+.contact-link:hover {
+ color: #404bbf
+}
+
+.hero-section {
+    background-color: #2e2f42;
+}
+
+.hero-title {
+    color: #fff;
+}
+
+.logo {
+    color: #2e2f42;
+    font-family: Raleway,sans-serif;
+}
