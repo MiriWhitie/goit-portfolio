@@ -12,6 +12,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #fff;
 }
 
 .logo:focus {
@@ -78,13 +79,10 @@ font-weight: 500;
     background-color:var(--brand-color);
     cursor: pointer;
     border: none;
-    border-radius: 4px;
-    padding: 16px 32px;
-    margin: 48px 164px 0 830px;
 }
 
 .button:hover {
-    border-color:var(--brand-dark-color);
+    background-color:var(--brand-dark-color);
 }
 
 .Our-advantages {
