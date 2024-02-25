@@ -27,7 +27,8 @@ color: var(--brand-dark-color);
 font-weight: 500;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
     color: #404bbf;
 }
 
@@ -63,7 +64,7 @@ font-weight: 500;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
-    letter-spacing: 0.03em
+    letter-spacing: 0.03em   
 }
 
 .logo-accent {
@@ -77,10 +78,13 @@ font-weight: 500;
     background-color:var(--brand-color);
     cursor: pointer;
     border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+    margin: 48px 164px 0 830px;
 }
 
 .button:hover {
-    background-color:var(--brand-dark-color);
+    border-color:var(--brand-dark-color);
 }
 
 .Our-advantages {
@@ -97,4 +101,12 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+}
+
+.footer-section{
+    background: #2e2f42;
+}
+
+.footer-text {
+    color: #f4f4fd;
 }
