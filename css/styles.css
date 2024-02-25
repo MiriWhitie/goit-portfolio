@@ -78,7 +78,7 @@ font-weight: 500;
     color: #fff;
     background-color:var(--brand-color);
     cursor: pointer;
-    border: none;
+    border: none;   
 }
 
 .button:hover {
